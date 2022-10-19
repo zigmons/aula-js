@@ -23,44 +23,31 @@ let total = parseFloat(subtotal) + frete_total + tax
 
 const carrinho = [
     {
-        produto1,
-        moisturizer_float,
-        qnt_moist
+        produto: produto1,
+        preco: moisturizer_float,
+        qnt: qnt_moist
     },
     {
-        produto2,
-        lip_gloss_float,
-        qnt_lipgloss
+        produto: produto2,
+        preco: lip_gloss_float,
+        qnt: qnt_lipgloss
     },
     {
-        produto3,
-        cleanser_float,
-        qnt_clean
+        produto: produto3,
+        preco: cleanser_float,
+        qnt: qnt_clean
     },
-    {
-        subtotal
-    },
-    {
-        frete_total
-    },
-    {
-        tax
-    },
-    {
-        total
-    },
-
 ];
 
 
 
-console.log(`${carrinho[0].produto1} x${carrinho[0].qnt_moist} $ ${parseFloat(carrinho[0].moisturizer_float).toFixed(2)}`);
-console.log(`${carrinho[1].produto2} x${carrinho[1].qnt_lipgloss} $ ${parseFloat(carrinho[1].lip_gloss_float).toFixed(2)}`);
-console.log(`${carrinho[2].produto3} x${carrinho[2].qnt_clean} $ ${parseFloat(carrinho[2].cleanser_float).toFixed(2)}`);
-console.log(`Subtotal $ ${carrinho[3].subtotal}`)
-console.log(`Frete $ ${carrinho[4].frete_total}`)
-console.log(`Tax $ ${carrinho[5].tax}`)
-console.log(`Total $ ${carrinho[6].total}`)
+for(let i =0; i < carrinho.length; i++){
+    console.log(`${carrinho[i].produto} x${carrinho[i].qnt} $ ${parseFloat(carrinho[i].preco).toFixed(2)}`)
+};
+console.log(`Subtotal $ ${subtotal}`)
+console.log(`Frete $ ${parseFloat(frete_total).toFixed(2)}`)
+console.log(`Tax $ ${tax}`)
+console.log(`Total $ ${total}`)
 
 
 // function ver(){
