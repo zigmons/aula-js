@@ -10,7 +10,7 @@ let qnt_moist = 2
 let qnt_lipgloss = 1
 let qnt_clean = 3
 
-let frete_total = parseFloat(24.00).toFixed(2)
+let frete_total = 24.00
 let tax = 8.25
 
 let moisturizer_float = moisturizer*qnt_moist
