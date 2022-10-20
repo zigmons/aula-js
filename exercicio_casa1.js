@@ -50,12 +50,27 @@ console.log(`Tax $ ${tax}`)
 console.log(`Total $ ${total}`)
 
 
-// function ver(){
-//     let nome = document.getElementById("nome")
-//     let valor = document.getElementById("valor")
-//     let produto = {
-//         nome: nome.value,
-//         valor: valor.value
-//     }
-//     console.log(produto)}
+// const btn = document.getElementById("btn")
+
+// btn.addEventListener('click',e => {
+//     e.preventDefault()
+//     const inputValue = document.getElementById("nome")
+//     const inputValueNumber = document.getElementById("valor")
+//     const nome = inputValue.value
+//     const valor = inputValueNumber.value
+
+//     const div = document.getElementById("infos")
+//     const h3 = div.innerHTML = `<h3>O produto ${nome} tem o valor de R$ ${valor}</h3>`
+// })
+
+
+function btn(){
+    let nome = document.getElementById("nome")
+    let valor = document.getElementById("valor")
+    let nome1 = nome.value
+    let valor1 = valor.value
+    let div = document.getElementById("infos")
+    let h3 = div.innerHTML = `<h3>O produto ${nome1} tem o valor de R$ ${valor1}</h3>`
+    
+}
 
