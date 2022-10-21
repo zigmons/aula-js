@@ -27,15 +27,42 @@
 
 // console.log(pessoa);
 
-function ver(){
-    let nome = document.getElementById("nome")
-    let idade = document.getElementById("idade")
-    let pessoa = {
-        nome: nome.value,
-        idade: idade.value
+// function ver(){
+//     let nome = document.getElementById("nome")
+//     let idade = document.getElementById("idade")
+//     let pessoa = {
+//         nome: nome.value,
+//         idade: idade.value
+//     }
+//     console.log(pessoa);
+
+
+// }
+
+let pergunta1 = "Você gosta de video games?"
+console.log(pergunta1)
+
+let pergunta2 = "Voce tem amigos?"
+let pergunta3 = "Amigos reais ou virtuais?"
+
+
+const resposta1 = "Sim"
+const resposta2 = "Sim"
+const resposta3 = "Reais"
+
+if(resposta1 ==="Sim"){
+    console.log(pergunta2);
+    if(resposta2 === "Sim"){
+        console.log(pergunta3);
+        if(resposta3){
+            console.log("Compre um wii")
+        }else{
+            console.log("Compre um Xbox");
+        }
+    }else{
+        console.log("Compre um PS3");
     }
-    console.log(pessoa);
-
-
+}else{
+    console.log("Compre um pc");
 }
 

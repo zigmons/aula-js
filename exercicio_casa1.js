@@ -39,6 +39,44 @@ const carrinho = [
     },
 ];
 
+// adicionando itens dentro do array
+
+let produto4 ={produto: "Mascara",preco: 10,qnt: 2};
+
+carrinho.push(produto4)
+
+let dinheiro = 50;
+
+
+// remover apenas o ultimo elemento de um array
+
+// carrinho.pop()
+
+// // remover apenas o primeiro elemento de um array
+
+// carrinho.shift()
+
+// remover um item do meio do array atraves do numero do indice + quantidade de elementos a ser removida
+// carrinho.splice(0,1)
+
+// If e Else
+
+// if(dinheiro >= total){
+//     console.log("Consegui")
+// }else{
+//     console.log("Nao consegui");
+// }
+
+let idade = 10;
+
+if(idade=>18){
+    console.log("Maior de idade");
+}else if(idade ==10){
+    console.log("voce tem 10 anos");
+}else{
+    console.log(idade);
+}
+
 
 
 for(let i =0; i < carrinho.length; i++){
@@ -48,21 +86,6 @@ console.log(`Subtotal $ ${subtotal}`)
 console.log(`Frete $ ${parseFloat(frete_total).toFixed(2)}`)
 console.log(`Tax $ ${tax}`)
 console.log(`Total $ ${total}`)
-
-
-// const btn = document.getElementById("btn")
-
-// btn.addEventListener('click',e => {
-//     e.preventDefault()
-//     const inputValue = document.getElementById("nome")
-//     const inputValueNumber = document.getElementById("valor")
-//     const nome = inputValue.value
-//     const valor = inputValueNumber.value
-
-//     const div = document.getElementById("infos")
-//     const h3 = div.innerHTML = `<h3>O produto ${nome} tem o valor de R$ ${valor}</h3>`
-// })
-
 
 function btn(){
     let nome = document.getElementById("nome")
