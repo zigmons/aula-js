@@ -66,3 +66,4 @@ if(resposta1 ==="Sim"){
     console.log("Compre um pc");
 }
 
+
