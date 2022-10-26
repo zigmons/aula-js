@@ -39,31 +39,47 @@
 
 // }
 
-let pergunta1 = "Você gosta de video games?"
-console.log(pergunta1)
+// let pergunta1 = "Você gosta de video games?"
+// console.log(pergunta1)
 
-let pergunta2 = "Voce tem amigos?"
-let pergunta3 = "Amigos reais ou virtuais?"
-
-
-const resposta1 = "Sim"
-const resposta2 = "Sim"
-const resposta3 = "Reais"
-
-if(resposta1 ==="Sim"){
-    console.log(pergunta2);
-    if(resposta2 === "Sim"){
-        console.log(pergunta3);
-        if(resposta3){
-            console.log("Compre um wii")
-        }else{
-            console.log("Compre um Xbox");
-        }
-    }else{
-        console.log("Compre um PS3");
-    }
-}else{
-    console.log("Compre um pc");
-}
+// let pergunta2 = "Voce tem amigos?"
+// let pergunta3 = "Amigos reais ou virtuais?"
 
 
+// const resposta1 = "Sim"
+// const resposta2 = "Sim"
+// const resposta3 = "Reais"
+
+// if(resposta1 ==="Sim"){
+//     console.log(pergunta2);
+//     if(resposta2 === "Sim"){
+//         console.log(pergunta3);
+//         if(resposta3){
+//             console.log("Compre um wii")
+//         }else{
+//             console.log("Compre um Xbox");
+//         }
+//     }else{
+//         console.log("Compre um PS3");
+//     }
+// }else{
+//     console.log("Compre um pc");
+// }
+
+// Switch case
+
+// let numero = 1
+
+// switch (numero) {
+//     case 0:
+//         console.log("Valor igual a 0")
+        
+//         break;
+//     case 1:
+//         console.log("Valor igual a 1")
+//         break;
+
+//     default:
+//         console.log("Valor padrão");
+//         break;
+// }

@@ -67,15 +67,15 @@ let dinheiro = 50;
 //     console.log("Nao consegui");
 // }
 
-let idade = 10;
+// let idade = 10;
 
-if(idade=>18){
-    console.log("Maior de idade");
-}else if(idade ==10){
-    console.log("voce tem 10 anos");
-}else{
-    console.log(idade);
-}
+// if(idade=>18){
+//     console.log("Maior de idade");
+// }else if(idade ==10){
+//     console.log("voce tem 10 anos");
+// }else{
+//     console.log(idade);
+// }
 
 
 
