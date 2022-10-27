@@ -60,18 +60,10 @@ console.log(somapreco());
 
 // FIND
 
-// function checkNome(nome1){
-//     return carrinho.itens.find(checkNome)=>{
-//         return nome1.nome
-//     }
-    
-// }
-// console.log(checkNome("Produto2"))
-
-function checkNome(){
-    return carrinho.itens.find((nome1)=>{
-        return nome1.nome === "Produto 2";
+function checkNome(produtos){
+    return carrinho.itens.find(nomeprodutos =>{
+        return nomeprodutos.nome === produtos
 
 })
 }
-console.log(checkNome())
+console.log(checkNome("Produto 3"))
